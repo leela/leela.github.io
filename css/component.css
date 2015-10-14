@@ -1,0 +1,66 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+    height: 550px!important;
+}
+
+.large-header {
+	/*background-image: url('../images/pattern.png');*/
+    
+      background: -webkit-linear-gradient(90deg, #4b6cb7 10%, #182848 90%); /* Chrome 10+, Saf5.1+ */
+      background:    -moz-linear-gradient(90deg, #4b6cb7 10%, #182848 90%); /* FF3.6+ */
+      background:     -ms-linear-gradient(90deg, #4b6cb7 10%, #182848 90%); /* IE10 */
+      background:      -o-linear-gradient(90deg, #4b6cb7 10%, #182848 90%); /* Opera 11.10+ */
+      background:         linear-gradient(90deg, #4b6cb7 10%, #182848 90%); /* W3C */
+        
+        
+        
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title
+{
+	text-transform: uppercase;
+    font-family: Raleway;
+	font-size: 3.2em;
+	letter-spacing: 0.1em;
+    font-weight:800;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.main-title 
+	{
+		font-size: 2em;
+	}
+
+	
+}
+@media only (min-width: 320px) and (max-width : 360px) {
+	.main-title 
+	{
+		font-size: 1.2em;
+	}
+
+	
+}
